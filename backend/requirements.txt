@@ -1,0 +1,16 @@
+fastapi
+uvicorn
+neo4j
+weaviate-client<4
+langchain
+langchain-community
+great-expectations
+duckdb
+kafka-python
+pydantic
+pydantic-settings
+python-dotenv
+fastembed
+python-multipart
+pandas
+pyarrow

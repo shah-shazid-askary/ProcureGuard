@@ -1,0 +1,19 @@
+{
+  "classes": [
+    {
+      "class": "DocumentChunk",
+      "description": "A chunk of text from a regulatory or procurement document",
+      "vectorizer": "none",
+      "properties": [
+        {"name": "documentId", "dataType": ["text"]},
+        {"name": "chunkId", "dataType": ["text"]},
+        {"name": "sourceType", "dataType": ["text"]},
+        {"name": "vendorId", "dataType": ["text"]},
+        {"name": "datePublished", "dataType": ["date"]},
+        {"name": "textContent", "dataType": ["text"]},
+        {"name": "regulatoryFramework", "dataType": ["text"]},
+        {"name": "policyId", "dataType": ["text"]}
+      ]
+    }
+  ]
+}
